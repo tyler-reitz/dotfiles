@@ -1,0 +1,26 @@
+{
+  "name": "dotfiles",
+  "version": "1.0.0",
+  "description": "![Screenshot of my shell prompt](https://i.imgur.com/EkEtphC.png)",
+  "main": "index.js",
+  "dependencies": {
+    "themer-colors-default": "^1.0.5",
+    "themer-vim": "^2.2.7",
+    "themer-wallpaper-block-wave": "^2.0.1",
+    "themer": "^2.2.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "themer --colors themer-colors-default --template themer-vim --template themer-wallpaper-block-wave -o gen"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tyler-reitz/dotfiles.git"
+  },
+  "author": "Tyler Reitz <tdreitz@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tyler-reitz/dotfiles/issues"
+  },
+  "homepage": "https://github.com/tyler-reitz/dotfiles#readme"
+}
