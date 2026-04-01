@@ -1,0 +1,20 @@
+configuration {
+    modi: "drun,run,window";
+    show-icons: true;
+    icon-theme: "Adwaita";
+    drun-display-format: "{name}";
+    display-drun: "apps";
+    display-run: "run";
+    display-window: "windows";
+    font: "Noto Sans Mono 11";
+    location: 0;
+    anchor: north;
+    y-offset: 32;
+    width: 42;
+    lines: 10;
+    columns: 1;
+    hide-scrollbar: true;
+    sidebar-mode: false;
+}
+
+@theme "/home/me/.cache/wal/colors-rofi-dark.rasi"

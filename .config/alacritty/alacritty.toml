@@ -1,0 +1,23 @@
+[general]
+import = [
+  "~/.cache/wal/colors-alacritty.toml"
+]
+
+[font]
+size = 7
+
+[font.normal]
+family = "Noto Sans Mono"
+style = "Regular"
+
+[font.bold]
+family = "Noto Sans Mono"
+style = "Bold"
+
+[window]
+padding = { x = 6, y = 4 }
+opacity = 1.0
+dynamic_padding = false
+
+[cursor]
+style = { shape = "Beam", blinking = "On" }
