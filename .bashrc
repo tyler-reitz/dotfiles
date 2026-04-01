@@ -17,6 +17,7 @@ alias grep='grep --color=auto'
 alias gs='git status'
 alias gd='git diff'
 alias gc='git commit'
+alias dotfiles='git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
 
 # Navigation
 alias ..='cd ..'
