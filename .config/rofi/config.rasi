@@ -18,3 +18,80 @@ configuration {
 }
 
 @theme "/home/me/.cache/wal/colors-rofi-dark.rasi"
+
+* {
+    foreground: #f5e0c8;
+    normal-foreground: @foreground;
+    alternate-normal-foreground: @foreground;
+    active-foreground: @foreground;
+    alternate-active-foreground: @foreground;
+    urgent-foreground: @foreground;
+    alternate-urgent-foreground: @foreground;
+    selected-normal-foreground: @foreground;
+    selected-active-foreground: @foreground;
+    selected-urgent-foreground: @foreground;
+}
+
+textbox {
+    text-color: #f5e0c8;
+}
+
+entry {
+    text-color: #f5e0c8;
+}
+
+prompt {
+    text-color: #f5e0c8;
+}
+
+case-indicator {
+    text-color: #f5e0c8;
+}
+
+element-text {
+    text-color: #f5e0c8;
+}
+
+button {
+    text-color: #f5e0c8;
+}
+
+button selected {
+    text-color: #f5e0c8;
+}
+
+element normal.normal {
+    text-color: #f5e0c8;
+}
+
+element normal.active {
+    text-color: #f5e0c8;
+}
+
+element normal.urgent {
+    text-color: #f5e0c8;
+}
+
+element alternate.normal {
+    text-color: #f5e0c8;
+}
+
+element alternate.active {
+    text-color: #f5e0c8;
+}
+
+element alternate.urgent {
+    text-color: #f5e0c8;
+}
+
+element selected.normal {
+    text-color: #f5e0c8;
+}
+
+element selected.active {
+    text-color: #f5e0c8;
+}
+
+element selected.urgent {
+    text-color: #f5e0c8;
+}
